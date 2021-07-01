@@ -1,0 +1,168 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+/* Styling for body tag */
+body {
+ background-color: #DCF2B0AA; 
+ font-family: 'Times New Roman', Times, serif; 
+ font-size: 20px;  
+ line-height: 1.5em;
+ color: black; 
+}
+
+/* Styling for main tag */
+main {
+  padding-top: 25px;      
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+ 
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+/* STYLE TEXT */
+.top-part {
+  background-image: url(https://images.unsplash.com/photo-1543362906-acfc16c67564?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+
+.content {
+  text-align: justify;
+  padding-top: 25px;      
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'PT Sans', sans-serif;
+ 
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+#Header-1 {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  padding-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 10em;
+
+}
+
+#main-message {
+  margin-bottom: 1em;
+  font-size: 2em;
+  text-justify: inter-word;
+  font-family: 'Dosis', sans-serif; 
+  line-height: 1;
+}
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #506132;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 2em;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive; 
+}
+
+li a:hover {
+  background-color:#E0F3B9;
+  color: black;
+}
+
+/* STYLE BUTTONS */
+#takeAction {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  background-color: #F9F4B1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1em;
+  
+}
+
+#takeAction:hover {
+  background-color: #DCF2B0AA;
+}
+
+/* Styling for fact generator */
+.genFact {
+  background: #506132;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 30px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: 'Dosis', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: white;
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+ font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.2em;
+  color: black;
+
+}
+
+#factBtn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #ffffff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
